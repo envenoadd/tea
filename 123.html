@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教师节祝福</title>
+    <style>
+        @font-face {
+            font-family: 'Futura';
+            src: local('Futura'), url('https://fonts.cdnfonts.com/s/8877/Futura.woff') format('woff');
+        }
+
+        body {
+            font-family: 'Songti SC', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf6e3;
+            color: #333;
+            text-align: center;
+            line-height: 1.8;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        header {
+            font-family: 'Futura', sans-serif;
+            background-color: #3b5998;
+            padding: 30px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #fff;
+            letter-spacing: 4px;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+            border-bottom: 3px solid #4267B2;
+        }
+
+        .content {
+            padding: 50px 20px;
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
+        }
+
+        h2 {
+            color: #3b5998;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #555;
+            margin: 15px 0;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #777;
+            font-size: 18px;
+            border-left: 4px solid #3b5998;
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #3b5998;
+            padding: 30px;
+            font-size: 24px;
+            color: #fff;
+            border-top: 2px solid #4267B2;
+        }
+
+        /* A PengAnkang Production 右下角设置 */
+        .production {
+            font-family: 'Futura', sans-serif;
+            font-size: 16px;
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            color: #777;
+        }
+
+        /* 播放按钮的样式 */
+        .play-button {
+            background-color: #3b5998; /* 按钮颜色与主题一致 */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .play-button:hover {
+            background-color: #4267B2; /* 悬停时颜色稍深 */
+        }
+    </style>
+</head>
+<body>
+
+<audio id="background-music" loop>
+    <source src="RomanticFlight.mp3" type="audio/mp3">
+    您的浏览器不支持音频播放。
+</audio>
+
+<header>
+    教师节祝福
+</header>
+
+<div class="content">
+    <h2>祝福语</h2>
+    <p>敬爱的老师：</p>
+    <p>愿您在未来的日子里，生活充满阳光与幸福，事业蒸蒸日上。</p>
+    <p class="quote">“教师是人类灵魂的工程师，您如园丁般辛勤付出，播下的每一颗种子，都会在我们心中生根发芽。”</p>
+    <p>感恩有您，祝您教师节快乐，身体健康，工作顺利，生活美满。</p>
+
+    <!-- 播放音乐按钮 -->
+    <button class="play-button" onclick="document.getElementById('background-music').play()">播放音乐</button>
+</div>
+
+<footer>
+    桃李满天下，师恩永不忘。
+</footer>
+
+<!-- 右下角 A PengAnkang Production -->
+<div class="production">
+    A PengAnkang Production
+</div>
+
+</body>
+</html>
